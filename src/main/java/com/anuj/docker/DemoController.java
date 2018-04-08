@@ -10,6 +10,6 @@ public class DemoController {
 	@RequestMapping(path = "/msg", method = RequestMethod.GET)
 	public String getRandomMsg() {
 		
-		return "Hello Docker!";
+		return "Hello Docker!develop branch!";
 	}
 }
